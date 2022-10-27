@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,28 +15,43 @@
     <!-- Style from assets -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/detail.css">
     <!-- Other configurations -->
-    <title>Pokedex</title>
+    <title>Detalhes</title>
     <link rel="shortcut icon" href="/assets/imgs/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <section class="content">
-        <h1>Pokedex </h1>
-
-        <ol id="pokemonList" class="pokemons">
-
-            <!-- Pokemons here -->
-        </ol>
-        <div class="pagination">
-            <button type="button" id="loadMore">Load More</button>
+    <div class="header-buttons">
+        <a class="backButton" href="/index.html">
+        </a>
+    </div>
+    <div class="details-content grass-background">
+        <div class="header">
+            <span class="gen">Gen 1</span>
+            <span class="number">#1</span>
         </div>
-    </section>
+        <h1>Bubasaur</h1>
+        <div class="detail">
+            <ol class="types">
+               <li class="type ${type}">tipo</li>
+               <li class="type ${type}">tipo</li>
+            </ol>
+        </div>
+        <img src="https://cdn.traction.one/pokedex/pokemon/1.png">
+    </div>
+    <div>
+        <p>especie</p>
+        <div class="detail">
+            <ol class="types">
+               <li class="type ${type}">habilidade 1</li>
+               <li class="type ${type}">habilidade 2</li>
+            </ol>
+        </div>
+        <p>Altura</p>
+        <p>peso</p>
+        <p>descrição</p>
+    </div>
+        
 
-
-
-    <!-- Js from assets -->
-    <script src="/assets/js/pokemon-model.js"></script>
-    <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/main.js"></script>
 </body>
 </html>

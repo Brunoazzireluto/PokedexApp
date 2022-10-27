@@ -16,7 +16,10 @@ body{
     padding: 1rem;
     background-color: #fff;
     text-align: center;
+}
 
+.detailLink{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
