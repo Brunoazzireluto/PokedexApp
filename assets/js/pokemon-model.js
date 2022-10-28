@@ -11,7 +11,6 @@ class Pokemon {
 class PokemonDetails {
     number;
     name;
-    species;
     type;
     types = [];
     photo;
@@ -19,6 +18,5 @@ class PokemonDetails {
     abilities = [];
     height;
     weight;
-    family = [];
     description;
 }

@@ -55,9 +55,9 @@ pokeApi.getPokemon = function(id=1){
     const url = `https://pokeapi.co/api/v2/pokemon/1`;
     return fetch(url)
         .then((response) => response.json())
-        .then((jsonBody) => jsonBody.results)
-        .then((pokemons) => pokeApi.getPokemonDetail)
-        .then((pokemonsDetail) => pokemonsDetail)
+        .then((jsonBody) => jsonBody)
+        .then((pokemon) => pokeApi.getPokemonDetail)
+        .then((pokemonsDetail) => console.log(pokemonsDetail))
         .catch((error) => console.log(error))
 
 }
