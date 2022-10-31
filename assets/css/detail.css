@@ -142,7 +142,7 @@
 /* Type colors Backgroung */
 .bug-background  {
     background-color:#1C4C25;
-    background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/bugType.png);
+    background-image: url(./assets/images/bugType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -150,7 +150,7 @@
 
 .dark-background  {
     background-color:#040706;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/darkType.png);
+        background-image: url(./assets/images/darkType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -162,98 +162,98 @@
 
 .dragon-background  {
     background-color:#448B95;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/dragonType.png);
+        background-image: url(./assets/images/dragonType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .electric-background  {
     background-color:#E3E32B;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/eletricType.png);
+        background-image: url(./assets/images/eletricType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .fairy-background  {
     background-color:#971944;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/fairyType.png);
+        background-image: url(./assets/images/fairyType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .fighting-background  {
     background-color:#994025;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/fightingType.png);
+        background-image: url(./assets/images/fightingType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .fire-background  {
     background-color:#AB2021 ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/fireType.png);
+        background-image: url(./assets/images/fireType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .flying-background  {
     background-color:#4A677D ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/flyingType.png);
+        background-image: url(./assets/images/flyingType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .ghost-background  {
     background-color:#33336B ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/ghostType.png);
+        background-image: url(./assets/images/ghostType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .grass-background  {
     background-color: #147B3D;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/grassType.png);
+        background-image: url(./assets/images/grassType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .ground-background  {
     background-color:#A9702C ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/groundType.png);
+        background-image: url(./assets/images/groundType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .ice-background  {
     background-color:#86D2F5 ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/iceType.png);
+        background-image: url(./assets/images/iceType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .normal-background  {
     background-color:#75515B ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/normalType.png);
+        background-image: url(./assets/images/normalType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .poison-background  {
     background-color:#5E2D88 ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/poisonType.png);
+        background-image: url(./assets/images/poisonType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .psychic-background  {
     background-color:#A42A6C ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/psychicType.png);
+        background-image: url(./assets/images/psychicType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .rock-background  {
     background-color:#48180B ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/rockType.png);
+        background-image: url(./assets/images/rockType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -265,14 +265,14 @@
 
 .steel-background  {
     background-color:#61746D ;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/steelType.png);
+        background-image: url(./assets/images/steelType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .water-background  {
     background-color:#1552E2;
-        background-image: url(https://github.com/Brunoazzireluto/PokedexApp/blob/main/assets/imgs/waterType.png);
+        background-image: url(./assets/images/waterType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
