@@ -96,7 +96,7 @@
 /* Type colors Backgroung */
 .bug-background  {
     background-color:#1C4C25;
-    background-image: url(./assets/images/bugType.png);
+    background-image: url(/PokedexApp/assets/imgs/bugType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
