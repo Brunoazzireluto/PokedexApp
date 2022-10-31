@@ -1,6 +1,17 @@
+function getCurrenID () {
+    id = window.location.search
+    console.log(id)
+    return id.substring(id.indexOf('=') + 1)
+}
+
+const idNumber = getCurrenID()
+
+
+
 const pokemonList = document.getElementById('pokemonList');
 
-function loadPokemonItens(id) {
+function loadPokemonItenstoDetails(id) {
+    console.log(id)
     getPokemon(id).then((pokemon) => {
         pokemonList.innerHTML =  `<div class="pokemon ${pokemon.type+'-background'}">
         <div class="header">
@@ -21,31 +32,31 @@ function loadPokemonItens(id) {
                 <li class="infoDetail">height:  ${pokemon.height*10} cm</li>
                 <li class="infoDetail">weight:  ${pokemon.weight}Kg</li>
             </ol>
-            <h3> description</h3>
-            <p>${pokemon.description}</p>
+            <h2> description</h2>
+            <p class="descriptionText">${pokemon.description}</p>
         </div>
     </div>
     `
     });
 };
 
-loadPokemonItens(1)
 
 
-
-function getDescription(id){
-    const url = `https://pokeapi.co/api/v2/pokemon-species/${id}`;
-    return fetch(url)
-        .then((response) => response.json())
-        .then((jsonBody) => jsonBody)
-        .then((pokemon) => console.log(pokemon.flavor_text_entries[0].flavor_text))
-        
-              
+async function getDescription(id){
+    try {
+        const url =  `https://pokeapi.co/api/v2/pokemon-species/${id}`;
+        return fetch(url)
+            .then((response) => response.json())
+            .then((jsonBody) => jsonBody)
+            .then((pokemon) => pokemon.flavor_text_entries[0].flavor_text)    
+    } catch{
+        console.log(error)
+    }
 }
 
 
 
-function convertPokeApiToPokeModel(pokeDetail) {
+async function convertPokeApiToPokeModel(pokeDetail) {
     const pokemon = new PokemonDetails()
     pokemon.number = pokeDetail.id;
     pokemon.name = pokeDetail.name;
@@ -57,7 +68,7 @@ function convertPokeApiToPokeModel(pokeDetail) {
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
     pokemon.gen = verifyGeneration(pokeDetail.game_indices[0].version.name)
     pokemon.abilities = pokeDetail.abilities.map((ability) => ability.ability.name)
-    pokemon.description = getDescription(pokeDetail.id)
+    pokemon.description = await getDescription(pokeDetail.id)
     pokemon.weight = pokeDetail.weight
     pokemon.height = pokeDetail.height
 
@@ -74,3 +85,4 @@ function getPokemon(id){
 
 };
 
+loadPokemonItenstoDetails(idNumber)

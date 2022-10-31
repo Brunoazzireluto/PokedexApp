@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -117,8 +116,27 @@
 
 .details .infoList{
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
+
+.descriptionText{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+
+@media screen and (min-width: 700px) {
+    .content{
+        margin: 3rem 1rem 1rem 10rem;
+    }
+
+
+    .descriptionText{
+    padding: 0.5rem;
+    }
+} 
 
 
 /* Type colors Backgroung */
@@ -221,7 +239,8 @@
 }
 .poison-background  {
     background-color:#5E2D88 ;
-        background-image: url(/assets/imgs/poisonType.png);
+        background-image: url(/as    id;
+sets/imgs/poisonType.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -324,22 +343,3 @@
     background-color:#86A8FC;
 }
 /* ---- */
-
-
-/* @media screen and (min-width: 380px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-} */
