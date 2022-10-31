@@ -1,25 +1,26 @@
 # PokedexApp
 
-Um simples Projeto de Pokédex 
+A simple Pokédex Project
 
 <br>
 
 ---
 
-## 📖 sobre
+## 📖 About
 
 <br>
 
-Uma Pokédex contendo algumas informações dos pokemons, a contagem vai ate a 5 geração, contendo ao todo 649 Pokémons.
-Foi utilizada a [PokeAPI](https://pokeapi.co) para requisitar todos os dados e informações necessarias.
+A Pokédex containing some information about the pokemons, the count goes up to the 5th generation, containing a total of 649 pokemons.
+[PokeAPI](https://pokeapi.co) was used to request all the necessary data and information.
 
-Este é um projeto do do Bootcamp OrangeTech+ feito pela [DIO](https://www.dio.me) em parceria com o [Banco Inter](https://www.bancointer.com.br)
+This is an OrangeTech+ Bootcamp project made by [DIO](https://www.dio.me) in partnership with [Banco Inter](https://www.bancointer.com.br)
+
 
 ---
 
 <br>
 
-## 🛠️  Construído com
+## 🛠️  Built with
 
 <br>
 
@@ -43,4 +44,4 @@ Este é um projeto do do Bootcamp OrangeTech+ feito pela [DIO](https://www.dio.m
 <br>
 
 
-Feito por [Bruno Alves](https://github.com/Brunoazzireluto)
+Made by [Bruno Alves](https://github.com/Brunoazzireluto) 
